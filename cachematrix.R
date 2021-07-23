@@ -42,4 +42,4 @@ source("cachematrix.R")
 my_matrix<-makeCacheMatrix(matrix(1:4, nrow=2, ncol=2))
 my_matrix$get()
 my_matrix$getinverted
-cacheSolve(mymatrix)
+cacheSolve(my_matrix)
